@@ -4,7 +4,9 @@ This README shows a number of example datasets and their read structures for [ht
 
 ### Required Background
 
-See [Read Structures](https://github.com/fulcrumgenomics/fgbio/wiki/Read-Structures)
+See [Read Structures](https://github.com/fulcrumgenomics/fgbio/wiki/Read-Structures). 
+
+Note: Additional operators may be used below beyond `[TBMS]`, for example `C` for cell-partition identifiers, to denote read segments that map into platform specific tags (for example `C` can map into the `CR` tag for 10x cell-partitioned data).
 
 Note: if a sample barcode or molecular identifier is extracted from multiple reads, the bases are typically concatenated with a dash (`-`) delimiter.
 
