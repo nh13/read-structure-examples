@@ -73,3 +73,13 @@ Example technology: [Riptide™ High Throughput Rapid Library Prep (HT-RLP)](htt
 This is a good example of bases that are discarded and **not** present in the BAM
 
 Example technology: [TwinStrand Biosciences Duplex Sequencing](http://www.twinstrandbio.com/duplex-sequencing/)
+
+### Single-Index Paired-End with In-line Cell Partition Identifiers and In-line Unique Molecular Identifiers and Skipped Bases
+
+| FASTQ | Description | Read Structure | SEQ/Tags |
+| --- | --- | --- | --- |
+| i1.fq | index/i7 | `+B` | `BC` |
+| r1.fq | read-one/R1 | `16C10M+S` | `CR`, `UR`, `TR`(unused) |
+| r2.fq | read-two/R2 | `+T` | `SEQ` |
+
+Example technology: [10X Genomics Chromium Single Cell 3’ v2 Libraries](https://assets.contentful.com/an68im79xiti/4fIy9tr6qQuCWamIii0iEa/40658acce7a6756e38537584897840e3/CG000108_AssayConfiguration_SC3v2.pdf) (and BAM [tags](https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/2.1/output/bam)).
