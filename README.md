@@ -95,4 +95,3 @@ Example technology: [10X Genomics Chromium Single Cell 3’ v2 Libraries](https:
 
 Example technology: 10X Genomics Chromium Single Cell 3’ v1 Libraries ([driving bcl2fastq](https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/2.1/using/bcl2fastq-direct))
 
-Example technology: [10X Genomics Chromium Single Cell 3’ v1 Libraries](https://assets.contentful.com/an68im79xiti/4fIy9tr6qQuCWamIii0iEa/40658acce7a6756e38537584897840e3/CG000108_AssayConfiguration_SC3v2.pdf) (and BAM [tags](https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/2.1/output/bam)).
